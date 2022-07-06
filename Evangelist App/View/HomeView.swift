@@ -26,7 +26,6 @@ var body: some View {
                             WeatherView(weather: item)
                         }
                     }
-
                     .navigationTitle(Text("Weather Lists"))
                 }
 

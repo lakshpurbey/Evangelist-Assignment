@@ -35,10 +35,8 @@ class WeatherViewModelImpl: ObservableObject, WeatherViewModel {
                     case .finished:
                         // send back the articles
                         self.state = .success(content: self.weather)
-                        print("dfdfdfd", self.state)
                     case .failure(let error):
                         // send back the error
-                        print("error",error)
                         self.state = .failed(error: error)
                 }
             } receiveValue: { response in

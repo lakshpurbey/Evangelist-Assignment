@@ -49,7 +49,6 @@ struct ErrorView: View {
 
         }
     }
-
 }
 
 struct ErrorView_Previews: PreviewProvider {
